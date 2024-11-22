@@ -1,0 +1,13 @@
+/*https://cursos.alura.com.br/forum/topico-rodape-fixo-no-final-da-tela-303670#:~:text=Voc%C3%AA%20pode%20utilizar%20a%20propriedade%20position:
+%20sticky%20para%20fixar%20o,seu%20c%C3%B3digo%20HTML%20e%20CSS.&text=Nesse%20c%C3%B3digo%2C%20definimos%20a%20altura,A%20classe%20.*/
+
+.rodape {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.main {
+position: relative;
+padding-bottom: 100px; /* altura do rodapé */
+}

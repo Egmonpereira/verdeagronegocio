@@ -1,0 +1,46 @@
+CSS
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho{
+    background-color: #006600;
+}
+
+body{
+    height: 100vh;
+}
+
+.nav-link{
+    a:link, a:visited {
+        background-color: whitesmoke;
+        color: black;
+        border: 2px solid green;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: black;
+        color: white;
+      }
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+
+.rodape{
+    background-color: black;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    text-align: center;
+}
